@@ -21,3 +21,4 @@ for i in b:
 print(z)
     
 
+"""0000"""
