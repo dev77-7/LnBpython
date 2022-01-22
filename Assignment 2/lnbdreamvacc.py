@@ -4,9 +4,9 @@ def dv():
     a=a.lower()
     if(a=="yes") :
         places=[]
-        for i in range(1,50):
+        for i in range(1,5):
             b=input("Enter Your Dream Vacation Places ((type done when you are finished with the list)):- ")
-            b=b.lower
+            b=b.lower()
             if(b=="done"):
                 dv()
             elif(b=="quit"):
@@ -18,3 +18,6 @@ def dv():
         dv()
 
 dv()
+
+
+
